@@ -1,13 +1,17 @@
 body{
-    background: white;
+    background: black url("/images/background/background.png") no-repeat center 25px;
     padding: 0;
     margin: 0;
     width: 100%;
 }
+
+/*Top bar*/
 #topBar{
     margin: 0;
     padding: 0;
     position: absolute;
+    overflow:hidden;
+    float:left;
     width: 100%;
     height: 47px;
     background: #000000;
@@ -22,12 +26,78 @@ body{
     background: linear-gradient(to bottom,  #000000 0%,#070707 13%,#181818 33%,#1f1f1f 48%,#1f1f1f 54%,#1a1a1a 65%,#0a0a0a 85%,#010101 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#010101',GradientType=0 );
 }
+
 #topBarLogo{
     margin: 4px 10px;
     padding: 0;
-    width: 170px;
+    width: 163px;
     height: 37px;
-    min-width: 175px;
+    min-width: 163px;
+    float:left;
     min-height: 48px;
     background: url("/images/topbar/uelogo.png") no-repeat;
+}
+
+.topBarIcon{
+    cursor: pointer;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+}
+.topBarIcon:hover{
+    margin-top: 10px !important;
+    box-shadow: 0px 0px 8px #fff;
+}
+
+#topBarFacebook{
+    margin-top: 12px;
+    margin-left: 10px;
+    width: 25px;
+    float:left;
+    height: 25px;
+    background: url("/images/topbar/facebook.png") no-repeat;
+    background-size: 100% 100%;
+}
+#topBarTwitter{
+    margin-top: 12px;
+    margin-left: 5px;
+    width: 25px;
+    float:left;
+    height: 25px;
+    background: url("/images/topbar/twitter.png") no-repeat;
+    background-size: 100% 100%;
+}
+#topBarYoutube{
+    margin-top: 12px;
+    margin-left: 5px;
+    width: 25px;
+    float:left;
+    height: 25px;
+    background: url("/images/topbar/youtube.png") no-repeat;
+    background-size: 100% 100%;
+}
+#topBarIndie{
+    margin-top: 8px;
+    margin-left: 5px;
+    width: 72px;
+    float:left;
+    height: 35px;
+    background: url("/images/topbar/indie.png") no-repeat;
+    cursor: pointer;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    background-size: 100% 100%;
+}
+#topBarIndie:hover{
+    margin-top: 5px !important;
+}
+
+#banner{
+    background: url("/images/banner/banner.png") no-repeat center center;
+    width: 100%;
+    height: 295px;
+    top: 55px;
+    left: -4px;
+    position: absolute;
 }
