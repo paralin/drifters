@@ -1,0 +1,15 @@
+#banner{
+    background: url("/images/banner/banner.png") no-repeat center center;
+    width: 100%;
+    height: 295px;
+    top: 55px;
+    left: -4px;
+    position: absolute;
+}
+#navBar{
+    background: url("/images/navbar/back/base.png") no-repeat center;
+    width: 100%;
+    height: 165px;
+    top: 265px;
+    position: absolute;
+}

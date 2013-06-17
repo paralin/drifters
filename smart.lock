@@ -1,7 +1,15 @@
 {
   "meteor": {},
   "dependencies": {
-    "basePackages": {},
-    "packages": {}
+    "basePackages": {
+      "pnotify": {}
+    },
+    "packages": {
+      "pnotify": {
+        "git": "https://github.com/kidovate/meteor-pnotify.git",
+        "tag": "v0.1.0",
+        "commit": "1799e7a19759f8f5e8f2debd240024ee36f42fbc"
+      }
+    }
   }
 }
