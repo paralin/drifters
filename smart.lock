@@ -2,13 +2,30 @@
   "meteor": {},
   "dependencies": {
     "basePackages": {
-      "pnotify": {}
+      "pnotify": {},
+      "router": {},
+      "nivo": {}
     },
     "packages": {
       "pnotify": {
         "git": "https://github.com/kidovate/meteor-pnotify.git",
         "tag": "v0.1.0",
         "commit": "1799e7a19759f8f5e8f2debd240024ee36f42fbc"
+      },
+      "router": {
+        "git": "https://github.com/tmeasday/meteor-router.git",
+        "tag": "v0.5.1",
+        "commit": "32e377c7703bb119acccc859fc7296882903cbe7"
+      },
+      "nivo": {
+        "git": "https://github.com/kidovate/meteor-nivo.git",
+        "tag": "v0.1.2",
+        "commit": "15f43bf335cb53e84eab68d7d42ce0133046dc37"
+      },
+      "page-js-ie-support": {
+        "git": "https://github.com/tmeasday/meteor-page-js-ie-support.git",
+        "tag": "v1.3.5",
+        "commit": "b99ed8380aefd10b2afc8f18d9eed4dd0d8ea9cb"
       }
     }
   }

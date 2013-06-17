@@ -9,7 +9,8 @@ body{
 #topBar{
     margin: 0;
     padding: 0;
-    position: absolute;
+    position: fixed;
+    z-index: 9999;
     overflow:hidden;
     float:left;
     width: 100%;
@@ -26,7 +27,9 @@ body{
     background: linear-gradient(to bottom,  #000000 0%,#070707 13%,#181818 33%,#1f1f1f 48%,#1f1f1f 54%,#1a1a1a 65%,#0a0a0a 85%,#010101 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#010101',GradientType=0 );
 }
-
+#loginMenu{
+    position: fixed; right: 25px; top: 15px; color: white; font-family: 'Myriad Pro Semibold', Arial, sans-serif; z-index: 99999
+}
 #topBarLogo{
     margin: 4px 10px;
     padding: 0;

@@ -12,4 +12,78 @@
     height: 165px;
     top: 265px;
     position: absolute;
+    z-index: 5;
+}
+#navButtonsContainer{
+    width: 980px;
+    margin: 0 auto;
+    margin-top: 25px;
+    padding-left: 50px;
+}
+
+/* Base */
+.navBarButton{
+    float: left;
+    padding: 0;
+    margin: 0;
+    color: silver;
+    font-family: 'Aladin', Arial, fantasy;
+    font-size: 40px;
+    vertical-align: middle !important;
+    line-height: 2em;
+    text-align: center;
+}
+
+#navBar1{
+    background: url("/images/navbar/back/1.png") no-repeat center;
+    width: 182px;
+    height: 75px;
+    margin-top: 20px;
+
+}
+
+#navBar1:hover{
+    background: url("/images/navbar/back/1hover.png") no-repeat center;
+}
+
+#navBar2{
+    background: url("/images/navbar/back/2.png") no-repeat center;
+    width: 175px;
+    margin-top:21px;
+    height: 74px;
+
+}
+
+#navBar2:hover{
+    background: url("/images/navbar/back/2hover.png") no-repeat center;
+}
+#navBar3{
+    background: url("/images/navbar/back/3.png") no-repeat center;
+    width: 175px;
+    margin-top:21px;
+    height: 74px;
+}
+
+#navBar3:hover{
+    background: url("/images/navbar/back/3hover.png") no-repeat center;
+}
+#navBar4{
+    background: url("/images/navbar/back/4.png") no-repeat center;
+    width: 203px;
+    margin-top:21px;
+    height: 74px;
+}
+
+#navBar4:hover{
+    background: url("/images/navbar/back/4hover.png") no-repeat center;
+}
+#navBar5{
+    background: url("/images/navbar/back/5.png") no-repeat center;
+    width: 198px;
+    margin-top:21px;
+    height: 74px;
+}
+
+#navBar5:hover{
+    background: url("/images/navbar/back/5hover.png") no-repeat center;
 }

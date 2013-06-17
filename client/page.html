@@ -1,15 +1,13 @@
+<head>
+    <title>Drifters is Awesome</title>
+</head>
+
 <body>
 <!--Top bar-->
-<div id="topBar">
-<div id="topBarLogo"></div>
-<div id="topBarFacebook" class="topBarIcon"></div>
-<div id="topBarTwitter" class="topBarIcon"></div>
-<div id="topBarYoutube" class="topBarIcon"></div>
-<div id="topBarIndie"></div>
-</div>
+{{>topBar}}
 
 <!-- Login menu -->
-<div style="position: absolute; right: 25px; top: 15px; color: white; font-family: 'Myriad Pro Semibold', Arial, sans-serif">
+<div id="loginMenu">
     {{loginButtons align="right"}}
 </div>
 
@@ -17,7 +15,37 @@
 <div id="banner"></div>
 
 <!-- navi -->
-<div id="navBar">
+{{>navBar}}
 
+<!-- content-->
+<div id="contentContainer">
+    <div id="innerContainer">
+        <div id="pageContainer">
+            {{#isolate}}
+            {{renderPage}}
+            {{/isolate}}
+        </div>
+    </div>
 </div>
 </body>
+
+<template name="navBar">
+    <div id="navBar">
+        <div id="navButtonsContainer">
+            <div class="navBarButton" id="navBar1"></div>
+            <div class="navBarButton" id="navBar2"></div>
+            <div class="navBarButton" id="navBar3"></div>
+            <div class="navBarButton" id="navBar4"></div>
+            <div class="navBarButton" id="navBar5"></div>
+        </div>
+    </div>
+</template>
+<template name="topBar">
+    <div id="topBar">
+        <div id="topBarLogo"></div>
+        <div id="topBarFacebook" class="topBarIcon"></div>
+        <div id="topBarTwitter" class="topBarIcon"></div>
+        <div id="topBarYoutube" class="topBarIcon"></div>
+        <div id="topBarIndie"></div>
+    </div>
+</template>

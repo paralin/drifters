@@ -1,0 +1,33 @@
+#contentContainer {
+    top: 380px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    width: 100%;
+    z-index: -20;
+}
+#innerContainer{
+    box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.5);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    padding: 0;
+    top: 0;
+    width: 950px;
+    background: rgba(0,0,0,0.5);
+    height: 100%;
+    z-index: -20;
+}
+#pageContainer{
+    width: 100%;
+    z-index: -10;
+    min-height: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0;
+}
+.nivo-controlNav{
+    text-align: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
